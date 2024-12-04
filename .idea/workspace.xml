@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c3d969-49c4-47d1-8bd0-e9193b7b0e36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/factoria/insideout/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/factoria/insideout/Character.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/factoria/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/factoria/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/factoria/insideout/Emotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/factoria/insideout/Emotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/factoria/insideout/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/factoria/insideout/Human.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

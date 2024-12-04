@@ -1,6 +1,6 @@
 package org.factoria.insideout;
 
-public class Emotion {
+public class Emotion extends Character{
     private String color;
     private  String name;
     private int age;

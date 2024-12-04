@@ -12,6 +12,10 @@ public class Human {
         this.rol = rol;
     }
 
+    public String introduce() {
+        return "Hola soy " + this.name + ", tengo " + this.age + " años y mi rol es " + this.rol;
+    }
+
     public String getName() {
         return name;
     }

@@ -1,6 +1,7 @@
 package org.factoria;
 
 import org.factoria.insideout.Emotion;
+import org.factoria.insideout.Human;
 import org.factoria.user.User;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -19,6 +20,12 @@ public class Main {
 
         Emotion tristeza = new Emotion("blue","Tristeza",13);
         System.out.println(tristeza.introduce());
+
+        Human rilley = new Human("Rilley", 13, "personaje principal");
+        Human madreRilley = new Human("Madre de Rilley", 44, "madre del personaje principal");
+
+        System.out.println(rilley.introduce());
+        System.out.println(madreRilley.introduce());
 
     }
 }
