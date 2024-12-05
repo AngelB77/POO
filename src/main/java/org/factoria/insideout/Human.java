@@ -1,35 +1,16 @@
 package org.factoria.insideout;
 
-public class Human {
+public class Human extends Character {
 
-    private String name;
-    private int age;
     private String rol;
 
     public Human(String name, int age, String rol) {
-        this.name = name;
-        this.age = age;
+        super(name, age);
         this.rol = rol;
     }
-
+    @Override
     public String introduce() {
-        return "Hola soy " + this.name + ", tengo " + this.age + " años y mi rol es " + this.rol;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
+        return "Hola soy " + super.getName() + ", tengo " + super.getAge() + " años y mi rol es " + this.rol;
     }
 
     public String getRol() {

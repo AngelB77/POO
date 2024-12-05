@@ -15,10 +15,10 @@ public class Main {
         user1.setName("Angel");
         System.out.println(user1.getName());*/
 
-        Emotion alegria = new Emotion("yellow","Alegria", 13);
+        Emotion alegria = new Emotion("Alegria",13, "yellow");
         System.out.println(alegria.introduce());
 
-        Emotion tristeza = new Emotion("blue","Tristeza",13);
+        Emotion tristeza = new Emotion("Tristeza",13,"blue");
         System.out.println(tristeza.introduce());
 
         Human rilley = new Human("Rilley", 13, "personaje principal");
