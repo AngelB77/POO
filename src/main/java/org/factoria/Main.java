@@ -1,5 +1,6 @@
 package org.factoria;
 
+import org.factoria.insideout.CharacterInsideOut;
 import org.factoria.insideout.Emotion;
 import org.factoria.insideout.Human;
 import org.factoria.user.User;
@@ -15,10 +16,10 @@ public class Main {
         user1.setName("Angel");
         System.out.println(user1.getName());*/
 
-        Emotion alegria = new Emotion("Alegria",13, "yellow");
+        Emotion alegria = new Emotion("Alegria",13, "amarillo");
         System.out.println(alegria.introduce());
 
-        Emotion tristeza = new Emotion("Tristeza",13,"blue");
+        Emotion tristeza = new Emotion("Tristeza",13,"azul");
         System.out.println(tristeza.introduce());
 
         Human rilley = new Human("Rilley", 13, "personaje principal");
@@ -26,6 +27,7 @@ public class Main {
 
         System.out.println(rilley.introduce());
         System.out.println(madreRilley.introduce());
+        rilley.eat();
 
     }
 }

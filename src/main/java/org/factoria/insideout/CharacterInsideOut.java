@@ -1,17 +1,15 @@
 package org.factoria.insideout;
 
-public class Character {
+public abstract class CharacterInsideOut {
     private  String name;
     private int age;
 
-    public Character(String name, int age) {
+    public CharacterInsideOut(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    public String introduce() {
-        return "hola, soy " +this.name+ " y tengo " +this.age+ " años";
-    }
+    public abstract String introduce();
 
     public String getName() {
         return name;

@@ -1,6 +1,8 @@
 package org.factoria.insideout;
 
-public class Emotion extends Character{
+import org.factoria.Interfaces.DailyRoutine;
+
+public class Emotion extends CharacterInsideOut implements DailyRoutine {
     private String color;
 
 
@@ -17,4 +19,18 @@ public class Emotion extends Character{
         this.color = color;
     }
 
+    @Override
+    public String introduce() {
+        return "Hola, soy " + super.getName() + " y mi color es " + this.color;
+    }
+
+    @Override
+    public void weakeup() {
+        System.out.println("Estoy despierta");
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println("durmiendo");
+    }
 }
